@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 64px;
+  background-color: #252f3d;
+}
+
+ul {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+ul li:last-child {
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+h2 a,
+ul li:last-child a {
+  opacity: 1;
+}

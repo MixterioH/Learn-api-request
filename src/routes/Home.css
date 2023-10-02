@@ -1,0 +1,42 @@
+.containerHome {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.containerHome h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #777;
+}
+.post h2,
+.post p {
+  margin-bottom: 8px;
+}
+
+.post h2::first-letter {
+  text-transform: uppercase;
+}
+.btn {
+  background-color: #fff;
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  color: #0e1217;
+  opacity: 1;
+  border-radius: 8px;
+  max-width: 100px;
+  text-align: center;
+  transition: 0.3s;
+}
+.btn:hover {
+  color: white;
+  background-color: #0e1217;
+}
