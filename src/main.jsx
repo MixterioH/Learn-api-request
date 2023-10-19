@@ -5,7 +5,6 @@ import './index.css'
 
 import {createBrowserRouter, RouterProvider, Route} from "react-router-dom"
 // páginas
-import Home from './routes/home.jsx'
 import NewPost from './routes/NewPost'
 
 
